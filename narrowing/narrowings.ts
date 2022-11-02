@@ -3,16 +3,16 @@
 // 01 - type guard sintaxe < typeof variavel === "tipo" >
 function sum(a: string | number, b: string | number){
     if(typeof a === "string" && typeof b === "string"){
-        console.log(parseFloat(a) + parseFloat(b))
+        console.log(parseFloat(a) + parseFloat(b));
     } else if (typeof a === "number" && typeof b === "number"){
-        console.log(a + b)
+        console.log(a + b);
     } else {
-        console.log("Impossivel realizar a soma")
+        console.log("Impossivel realizar a soma");
     }
 
 }
-sum("10.5","10,5")
-sum(10, 25)
+sum("10.5","10,5");
+sum(10, 25);
 
 // Validação por valor, caso nos passamos alguma variavel com valor ela será true.
 
@@ -31,8 +31,8 @@ function operation(values:number[], operation?: string){
 }
 
 operation([1,2,3]);
-operation([1,2,3], "sum")
-operation([1,2,3], "multiply")
+operation([1,2,3], "sum");
+operation([1,2,3], "multiply");
 
 /** Narrowing com instanceOf para validar */
 class User{
@@ -44,7 +44,7 @@ class User{
 
 class SuperUser extends User{
     constructor(nome:string){
-        super(nome)
+        super(nome);
     }
 }
 
