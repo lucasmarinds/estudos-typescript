@@ -99,3 +99,4 @@ showDogDetails(turca);
 showDogDetails(mickey);
 console.log(turca);
 
+console.log("teste");
