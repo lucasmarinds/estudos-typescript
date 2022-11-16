@@ -103,6 +103,6 @@ console.log(sumAll(1,2,3,4,5));
     return `O nome do produto é ${nomeProduto}, e seu preco é R$${price}`    
  }
 
- const shirt = {name: "camisa V", price: 40.51};
+ const shirtUm = {name: "camisa V", price: 40.51};
 
- console.log(showProductDetail(shirt));
+ console.log(showProductDetail(shirtUm));
